@@ -1,4 +1,5 @@
 {
+  "name": "npm-experiment",
   "browserify": {
     "transform": [
       "browserify-shim"

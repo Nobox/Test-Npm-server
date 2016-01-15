@@ -1,5 +1,5 @@
 {
-  "name": "nobox/laravel",
+  "name": "npm-experiment",
   "private": true,
   "devDependencies": {
     "modernizr": "~2.8.3"
