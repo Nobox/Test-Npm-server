@@ -10,7 +10,8 @@
         "graham-campbell/htmlmin": "~4.0",
         "barryvdh/laravel-debugbar": "~2.0",
         "laravel/homestead": "dev-master",
-        "filp/whoops": "^1.2@dev"
+        "filp/whoops": "^1.2@dev",
+        "eloquent/composer-npm-bridge": "~2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
