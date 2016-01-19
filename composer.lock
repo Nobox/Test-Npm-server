@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "99dbbfd4b111fdf504f259e3fc9a620e",
-    "content-hash": "104bcd498eeabcdcf1b793ffc6d484a0",
+    "hash": "ad2bf65eb4bb29bdba9dab0b0a3c2c89",
+    "content-hash": "e0af569834c8a2434f2756890525772f",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -216,62 +216,6 @@
             "time": "2015-11-06 14:35:42"
         },
         {
-            "name": "eloquent/composer-npm-bridge",
-            "version": "2.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/eloquent/composer-npm-bridge.git",
-                "reference": "689ebcc8330dc118cc80371d3a18bd6ef63cb05a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/689ebcc8330dc118cc80371d3a18bd6ef63cb05a",
-                "reference": "689ebcc8330dc118cc80371d3a18bd6ef63cb05a",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "1.0.0",
-                "icecave/isolator": "~2",
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "composer/composer": "dev-master@dev",
-                "icecave/archer": "~1"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Eloquent\\Composer\\NpmBridge\\NpmBridgePlugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Eloquent\\Composer\\NpmBridge\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Erin Millard",
-                    "email": "ezzatron@gmail.com",
-                    "homepage": "http://ezzatron.com/"
-                }
-            ],
-            "description": "NPM integration for Composer packages.",
-            "homepage": "https://github.com/eloquent/composer-npm-bridge",
-            "keywords": [
-                "Bridge",
-                "composer",
-                "composer-plugin",
-                "integration",
-                "npm",
-                "package",
-                "plugin"
-            ],
-            "time": "2014-09-08 03:57:31"
-        },
-        {
             "name": "filp/whoops",
             "version": "1.x-dev",
             "source": {
@@ -393,58 +337,6 @@
                 "minifier"
             ],
             "time": "2015-11-14 11:55:24"
-        },
-        {
-            "name": "icecave/isolator",
-            "version": "2.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/IcecaveStudios/isolator.git",
-                "reference": "97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/IcecaveStudios/isolator/zipball/97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5",
-                "reference": "97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "icecave/archer": "~1"
-            },
-            "suggest": {
-                "eloquent/asplode": "Drop-in exception-based error handling."
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Icecave\\Isolator\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "James Harris",
-                    "email": "james.harris@icecave.com.au",
-                    "homepage": "https://github.com/jmalloc"
-                }
-            ],
-            "description": "Dependency injection for global functions.",
-            "homepage": "https://github.com/IcecaveStudios/isolator",
-            "keywords": [
-                "fake",
-                "mock",
-                "phake",
-                "phpunit",
-                "test",
-                "unit"
-            ],
-            "time": "2014-08-12 03:16:11"
         },
         {
             "name": "jakub-onderka/php-console-color",
