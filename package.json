@@ -22,8 +22,8 @@
     "imagemin-mozjpeg": "^5.1.0",
     "imagemin-optipng": "^4.3.0",
     "imagemin-pngquant": "^4.1.2",
-    "laravel-elixir": "^3.0.0",
-    "laravel-elixir-modernizr": "^1.0.1"
+    "laravel-elixir": "^4.0.0",
+    "laravel-elixir-modernizr": "^1.1.0"
   },
   "private": true
 }
