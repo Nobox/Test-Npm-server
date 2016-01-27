@@ -17,9 +17,7 @@ config.js.browserify.transformers = [
     {
         name: 'babelify',
         options: {
-            stage: 0,
-            compact: false,
-            ignore: config.bowerDir
+            presets: ['es2015', 'stage-1']
         }
     }
 ];
